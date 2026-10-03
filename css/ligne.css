@@ -4,3 +4,4 @@ p { line-height: 1.5; }
 .copyright { text-align: center; }
 .copyright { color: gray; font-size: 12px; }
 .menu { background-color: #d9f2d9; color: white; }
+.menu { background-color: #d9f2d9; color: white; padding: 10px; }
