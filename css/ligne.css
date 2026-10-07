@@ -90,4 +90,37 @@ body {
   width: 100%;
   box-sizing: border-box;
 }
-/* ===== FIN AJOUTS Safidy ===== */
+
+/* ===== AJOUT Safidy : page projets ===== */
+.projets-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 20px 80px;   /* 80px en bas : évite que le copyright fixe cache le contenu */
+}
+
+.projets-liste {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 15px;
+}
+
+.projet {
+  background-color: #fff;
+  border-left: 4px solid #2a6fb0;
+  border-radius: 4px;
+  padding: 12px 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.projet h2 {
+  margin: 0 0 6px 0;
+  color: #2a6fb0;
+  font-size: 1.1em;
+}
+
+.projet p {
+  margin: 0;
+}
+/* ===== FIN AJOUT Safidy ===== */
+
