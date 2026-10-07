@@ -3,3 +3,91 @@ h1 { color: green; text-align: center; }
 p { line-height: 1.5; }
 .copyright { text-align: center; }
 .copyright { color: gray; font-size: 12px; }
+
+body {
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* ===== AJOUT Safidy : navbar avec barre de recherche ===== */
+.navbar {
+  background-color: #2a6fb0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.navbar-liens a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  padding: 14px 16px;
+}
+
+.navbar-liens a:hover {
+  background-color: #1e5588;
+}
+
+.navbar-recherche {
+  display: flex;
+  gap: 6px;
+}
+
+.navbar-recherche input {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.navbar-recherche button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #2a6fb0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar-recherche button:hover {
+  background-color: #e0e0e0;
+}
+
+
+/* Titre et paragraphe centrés au milieu de la page */
+.centre {
+  min-height: calc(100vh - 100px);   /* écran moins navbar (~50px) et copyright (~50px) */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;           /* centrage vertical */
+  align-items: center;               /* centrage horizontal */
+  text-align: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.centre h1 {
+  margin: 0 0 10px 0;
+}
+
+.centre p {
+  margin: 0;
+}
+
+
+/* ===== AJOUT Safidy : copyright fixé en bas de la page ===== */
+.copyright {
+  background-color: #2a6fb0;
+  color: #fff;
+  padding: 14px 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+/* ===== FIN AJOUTS Safidy ===== */
